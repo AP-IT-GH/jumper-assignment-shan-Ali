@@ -59,14 +59,15 @@ public class JumpAgent : Agent
         }
         else if (collision.gameObject.CompareTag("point"))
         {
-            AddReward(0.5f);
+            Debug.Log("Point");
+            AddReward(1f);
             collision.gameObject.transform.position = new Vector3(Random.Range(4.0f, 8.0f), collision.gameObject.transform.position.y, -10.86f);
         }
         else if (transform.localPosition.y < ground.position.y)
         {
             EndEpisode();
         }
-        else if (transform.up.y < -0.9f)
+        else if (transform.up.y < -0.9f || transform.up.y > 2f)
         {
             EndEpisode();
         }
