@@ -1,5 +1,8 @@
 # Jumper-Assignment-Shan-Ali
 
+![image](https://user-images.githubusercontent.com/60844044/235789700-deb976b4-62f9-4e09-866b-37f51402f296.png)
+
+
 ## JumpAgent
 This is a Unity game agent that can learn to jump over obstacles and collect points using reinforcement learning with Unity ML-Agents.
 
