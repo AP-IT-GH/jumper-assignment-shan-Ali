@@ -50,3 +50,12 @@ void OnCollisionStay(Collision collision)
 This method is called when the agent is colliding with another object. It checks if the agent collided with an obstacle, a point, or fell off the ground. It adds rewards or ends the episode depending on the collision type.
 
 ![image](https://user-images.githubusercontent.com/60844044/235786958-08539242-ceef-4481-a28a-ece433ca2a74.png)
+
+![image](https://user-images.githubusercontent.com/60844044/235789319-7af72372-d443-4936-ac2c-697a4368a173.png)
+
+
+### Obstacle
+The obstacle the spawner script to keep respawning. It will also need a box collider to know if it collided with the Agent.
+
+![image](https://user-images.githubusercontent.com/60844044/235788771-b334f8aa-5305-420d-afe6-b829a3dc377f.png)
+
